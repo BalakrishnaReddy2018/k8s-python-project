@@ -1,0 +1,15 @@
+name: k8s-python-env
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - kubernetes
+  - requests
+  - pyyaml
+  - pandas
+  - pip:
+      - openshift  # Optional: if you also interact with OpenShift
+
